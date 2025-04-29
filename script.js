@@ -21,7 +21,7 @@ async function validarCodigo() {
             <p><strong>Nombre:</strong> ${certificado.nombre}</p>
             <p><strong>Curso:</strong> ${certificado.curso}</p>
             <p><strong>Fecha de Emisión:</strong> ${certificado.fecha}</p>
-            <p style="font-style: italic;">Gracias por capacitarte con Bestiario360°</p>
+            <p style="font-style: italic;">Certificado válido, gracias por capacitarte con Bestiario360°</p>
         `;
     } else {
         resultadoDiv.innerHTML = `<p style="color: red;">❌ Código inválido o no registrado.</p>`;
